@@ -13,7 +13,7 @@ static void parse_string(){
     int counter = 0;
     String temp = "";
 
-    if(data[data.length()-1] != ';')
+    if(data[data.length()-2] != ';')
         data += ';';
 
     for(int x=0;x<data.length();x++){
